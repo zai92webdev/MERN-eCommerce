@@ -1,0 +1,94 @@
+.navbar{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    background-color: #d6d6d6;
+    height: 4.3rem;
+    font-family: 'Roboto', sans-serif;
+    min-width: 500px;
+    width: 100%;
+    font-size: larger;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.navbar__left {
+    text-decoration: none !important;
+}
+
+.navbar__left > h1{
+    color: rgb(87, 87, 87);
+    padding: 4px 10px;
+    margin: 0;
+
+}
+
+.navbar__left > h1:hover{
+    color: rgb(29, 29, 29);
+    background-color: rgba(150, 149, 149, 0.164);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar__right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__right > span {
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgb(92, 91, 91);
+}
+
+.navbar__rightIcon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+    font-weight: 600;
+    font-size: larger !important;
+}
+
+.navbar__rightIcon > span{
+    cursor: pointer;
+}
+
+.navbar__rightIcon__cart {
+    outline: none;
+}
+
+
+.navbar__dropdown{
+    position: relative;
+    padding: 1px 0px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    z-index: 5;
+}
+
+
+.navbar__dropdownTitle {
+    color: white;
+    font-weight: 800;
+}
+
+
+.navbar__dropdown > span {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-left: 2px;
+    
+}
+

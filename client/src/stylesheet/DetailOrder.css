@@ -1,0 +1,85 @@
+.detailOrder {
+    width: 80vw;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+
+
+.detailOrder__container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.detailOrder__sections {
+    flex: 0.8;
+    padding: 2rem;
+}
+
+.detailOrder__sectionA {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.detailOrder__sectionA > span {
+    margin-bottom: 1rem;
+}
+
+.detailOrder__sectionA > h6 {
+    background-color: rgb(214, 214, 214);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.detailOrder__sectionB {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.detailOrder__sectionB > h6 {
+    background-color: rgb(214, 214, 214);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.detailOrder__sectionC {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.detailOrder__sectionC__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.detailOrder__summary {
+    flex: 0.2;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 1rem;
+    min-width: 300px;
+    max-height: 300px;
+}
+
+.detailOrder__summary__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+}
+
+.detailOrder__summary > button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.detailOrder__summary > button:hover {
+    background-color: rgb(136, 136, 136);
+    color: rgb(255, 255, 255);
+}

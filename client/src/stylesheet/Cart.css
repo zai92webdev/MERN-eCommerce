@@ -1,0 +1,54 @@
+.cart{
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    
+}
+.cart__sectionA{
+    flex:0.7;
+    margin-right: 1rem;
+
+}
+
+.cart__sectionB{
+    flex: 0.30;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 350px;
+    min-width: 200px;
+    height: 230px !important;
+}
+
+.cart__sectionB > h4{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    
+}
+
+.cart__sectionB > button {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color: rgb(207, 204, 204);
+    border-radius: 5px;
+}   
+
+.cart__sectionB > button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.cartButton {
+    display: flex;
+}
+
+.cartButton > span {
+    margin: 0 10px;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    font-size: large;
+}
+
